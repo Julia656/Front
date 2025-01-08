@@ -1,3 +1,9 @@
-const str1 = prompt("Введіть перший рядок:"); 
-const str2 = prompt("Введіть другий рядок:"); 
-const str3 = prompt("Введіть третій рядок:");
+let number = prompt("Введіть п'ятизначне число:");
+if (number.length === 5 && !isNaN(number)) {
+    let result = number.split("").join(" ");
+    console.log(result);
+    alert(result);
+} else {
+    console.error("Помилка: введіть саме п'ятизначне число.");
+    alert("Помилка: введіть саме п'ятизначне число.");
+}
