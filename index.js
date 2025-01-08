@@ -1,10 +1,3 @@
-console.log("Тип даних undefined: ", typeof undefined);
-console.log("Тип даних boolean: ", typeof true); 
-console.log("Тип даних number: ", typeof 42); 
-console.log("Тип даних bigint: ", typeof 123n); 
-console.log("Тип даних string: ", typeof "Привіт, світ!"); 
-console.log("Тип даних symbol: ", typeof Symbol("символ")); 
-console.log("Тип даних object (null): ", typeof null); 
-console.log("Тип даних object (масив): ", typeof []); 
-console.log("Тип даних object (об'єкт): ", typeof {}); 
-console.log("Тип даних function: ", typeof function () {});
+const str1 = prompt("Введіть перший рядок:"); 
+const str2 = prompt("Введіть другий рядок:"); 
+const str3 = prompt("Введіть третій рядок:");
